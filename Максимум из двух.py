@@ -1,4 +1,6 @@
 A = int(input())
 B = int(input())
-X = A - B
-print(B - X * (X // -1000))
+if A > B:
+    print(A)
+else:
+    print(B)
